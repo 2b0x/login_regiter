@@ -1,0 +1,20 @@
+
+		*{margin: 0;padding: 0;}
+		body{background: url("../images/bg002.jpg") no-repeat center top; background-size: cover;  background-attachment: fixed;}
+		.background { position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: -5; }
+		.background li { position: absolute; width: 100%; height: 100%; z-index: 10; background-position: center 0; background-repeat: no-repeat; background-attachment: fixed; background-size: cover; -webkit-background-size: cover; -o-background-size: cover; zoom: 1 }
+		#header .logo{text-align: center; padding-top: 5%;}
+		#main .cards .form .mui-input-group{background: rgba(0,0,0,0);}
+		#main .cards .form .mui-input-group:before,#main .cards .form .mui-input-group:after,#main .cards .form .mui-input-group .mui-input-row:after,#main .cards .form .mui-input-group .mui-input-row:before{background-color: rgba(0,0,0,0);}
+		#main .cards{width: 70%; background: rgba(9,9,9,0.7); margin: 0 auto; padding: 0 0 5%;}
+		#main .cards .title{padding:10% 6% 0;}
+		#main .cards .title p{color: orange; font-size: 20px; margin: 0 auto;}
+		#main .cards .form .mui-input-group{padding: 6% 0; text-align: center; color: white;}
+		#main .cards .form .mui-input-group .mui-input-row{padding: 0 4%; margin: 5% 0;}
+		#main .cards .form .mui-input-group .mui-input-row input{background: rgba(20,20,20,0.7);}
+		#main .cards .form .login{width: 92%; background: rgba(254,163,68,1); border: none; border-radius: 0;}
+		#main .cards .form .login:active{background: rgba(254,163,0,1);}
+		#main .cards .cards-footer{overflow: hidden; width: 92%; margin: 0 auto;}
+		#main .cards .cards-footer .psw{float: left; color: white; font-size: 10px;}
+		#main .cards .cards-footer .create{float: right; color: orange; font-size: 10px;}
+		#main .cards .cards-footer .psw:hover,#main .cards .cards-footer .create:hover{text-decoration: underline;}

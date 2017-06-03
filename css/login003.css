@@ -1,0 +1,136 @@
+*{margin: 0;padding: 0;}
+body{
+	background-color: rgba(12,176,155,1);
+}
+.content{
+	text-align: center;
+	margin: 0 auto;
+}
+.logo{
+	text-align: center;
+	margin: 115px 0 20px;
+}
+.logo img{
+	width: 300px;
+}
+.login{
+	margin: 0 auto;
+	width: 70%;
+}
+::-moz-placeholder{
+	color: rgba(255,255,255,1);
+}
+:-moz-placeholder{
+	color: rgba(255,255,255,1);
+}
+::-webkit-input-placeholder{
+	color: rgba(255,255,255,1);
+}
+.main .login .mui-input-group{
+	
+	margin: 0 auto;
+	background-color:rgba(255,255,255,0);
+}
+.main .login .mui-input-row:first-child{
+	margin-top: 85px;
+}
+.main .login .mui-input-row{
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 50px;
+	margin-bottom: 35px;
+	font-size: 40px;
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	color: rgba(255,255,255,1); 
+}
+.mui-input-row label{padding: 5px 0;width: 25%;height: 90px;line-height: 90px;}
+.mui-icon{font-size: 60px;}
+.mui-input-row label~input{width: 75%;padding: 5px 0;height: 90px;line-height: 90px;}
+input{
+	font-size: 35px;
+	color: rgba(255,255,255,1);
+}
+.login-in button{
+	border: none;
+	width: 100%;
+	border-radius: 50px;
+	font-size: 35px;
+	height: 90px;
+	color: rgba(12,176,155,1);
+}
+.login-in button:active{
+	background-color: rgba(0,0,0,0.2);
+}
+.new_user{
+	margin:50px auto 0;
+	width: 80%;
+}
+.new_user a{
+	font-size: 30px;
+	color: rgba(255,255,255,0.7);
+}
+.new_user a:active{
+	color: rgba(255,255,255,1);
+}
+.create{
+	position: relative;
+	text-align: center;
+}
+.create:before,.create:after{
+	width: 30%;
+	height: 2px;
+	position: absolute;
+	content: "";
+	top: 50%;
+}
+.create:before{
+	background:linear-gradient(to right,rgba(255,255,255,0),rgba(255,255,255,0.6));
+	left: 20px;
+}
+.create:after{
+	background:linear-gradient(to right,rgba(255,255,255,0.6),rgba(255,255,255,0));
+	right: 20px;
+}
+.footer{
+	margin: 0 auto;
+	width: 70%;
+	margin-top: 30%;
+}
+
+.f_left{
+	left: 0;
+	width: 210px;
+	float: left;
+}
+.f_right{
+	right: 0;
+	width: 210px;
+	height: 80px;
+	line-height: 80px;
+	float: right;
+}
+.f_right a{
+	font-size: 28px;
+	color: rgba(255,255,255,1);
+	text-decoration: underline;
+}
+.f_right a:active{
+	color: rgba(255,0,0,0.8);
+}
+.mui-checkbox{
+	width: 210px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 28px;
+	color: rgba(255,255,255,1);
+}
+.footer label.reme{
+	padding-left: 80px;
+}
+input[type=checkbox]{
+	-ms-transform: scale(2.5); /* IE */
+  -moz-transform: scale(2.5); /* FireFox */
+  -webkit-transform: scale(2.5); /* Safari and Chrome */
+  
+}

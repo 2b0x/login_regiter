@@ -1,0 +1,17 @@
+	   	*{margin: 0;padding: 0;}
+    	.mui-input-group,.mui-input-group:before,.mui-input-group:after,.mui-input-group .mui-input-row:after{background-color: rgba(0,0,0,0);}
+    	#main{padding: 5%;}
+    	#mian .cards{padding: 5% 5%; background: rgba(208,205,200,1); border-radius: 5px;}
+    	.mui-input-row{margin: 5% 0;background-color: rgba(0,0,0,0);overflow: visible;} 	
+    	.mui-input-row label{text-align: center;}
+    	.input-box{background: rgba(233,233,233,1);border-radius: 5px;}
+    	.mui-input-row label:after{background-color: rgba(0,0,0,0);}
+    	#mian .cards .mui-input-group .mui-input-row input{background: rgba(233,233,233,1);border-radius: 0 5px 5px 0;}
+    	#main .cards .mui-input-row .model{width: 100%; height: 100%; background: rgba(233,233,233,1); border-radius: 5px 5px 5px 5px; box-shadow: 0 0 10px 2px rgba(0,0,0,0.4); position: relative;}
+    	#main .cards .mui-input-row .model .icon-box{width: 20%; height: 100%; float: left; background: rgba(206,79,60,1); text-align: center; line-height:40px; border-radius: 5px 0 0 5px; box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.5); position: absolute;}
+    	#main .cards .mui-input-row .model .icon-box .mui-icon{box-shadow: 0px 0 0px 0px red;}
+    	#main .cards .mui-input-row .model input{width:80%; position: absolute; right: 0;}
+    	#main .cards .button-box{margin: 10% 0 0; height: 40px;}
+    	#main .cards .button-box .button-son{float: left; text-align: center; width: 35%; height: 100%;}
+    	#main .cards .button-box .set-right{float: right;}
+    	#main .cards .button-box .button-son button{width:100%; background: rgba(206,79,60,1); color: white; height: 100%; border-radius: 5px; border: none; box-shadow: 0 2px 10px 2px rgba(0,0,0,0.5);}

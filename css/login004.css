@@ -1,0 +1,57 @@
+*{margin: 0; padding: 0;}
+body{
+	background-color: rgba(53,125,179,1)
+}
+.header .logo{
+	text-align: center;
+	/*margin-top: 20%;*/
+}
+.header .logo img{
+	margin: 0 auto;
+
+}
+.main{
+	text-align: center;
+	margin: 4rem auto;
+}
+.main .mui-input-group{
+	
+	background-color: rgba(1,1,1,0);
+}
+.main .mui-input-group .mui-input-row{
+	background-color: rgba(255,255,255,1);
+	margin: 1rem 0;
+	font-size: 3.5rem;
+}
+.main .mui-input-group .mui-input-row input{
+	height: 100%;
+	font-size: 2.5rem;
+	text-align: center;
+}
+.login{
+	margin: 3.5rem 0 1rem;
+}
+.main .login button{
+	width: 100%;
+	height: 7.8rem;
+	border-radius: 80px;
+	font-size: 3.5rem;
+	background-color: rgba(117, 177, 214,1);
+}
+.main .commt{
+	display: inline-block;
+	width: 85%;
+	height: 7.8rem;
+	border-radius: 80px;
+	font-size: 2.5rem;	
+}
+body .mui-input-group:after,body .mui-input-group:before{
+	height: 0;
+}
+.forgotpsw{
+	margin-top: 2rem;
+}
+.forgotpsw a{
+	color: rgba(255,2555,255,1);
+	font-size: 2rem;
+}
